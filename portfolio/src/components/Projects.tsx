@@ -16,8 +16,8 @@ const projects: Project[] = [
     id: 1,
     title: "OptionInsight (Work in progress)",
     description: "Interactive Options Profit and Loss Visualizer. Potential strategy performance is shown in the form of a graph of price of the underlying vs profit. Working on implementing an AI model or backtester that will output the likelihood of the strategy succeeding given the current market conditions and rules of probability.",
-    imageUrl: "/images/ecommerce-project.jpg",
-    githubLink: "",
+    imageUrl: "/condor.svg",
+    githubLink: "https://github.com/vincent65/optionStrat",
     liveLink: "",
     technologies: ["Python", "Streamlit", "Pandas", "numpy", "sklearn", "scipy", "pytorch"]
   },
@@ -25,7 +25,7 @@ const projects: Project[] = [
     id: 2,
     title: "OrderBook in C",
     description: "Created a limit OrderBook capable of handling thousands of executions and transactions per second. The engine matches orders on price time priority, handling both market and limit orders for equities, making extensive use of STL containers and external libraries such as Chrono, mutex, and thread to allow safe multithreading and execution of orders",
-    imageUrl: "/images/weather-app.jpg",
+    imageUrl: "/orderbook.webp",
     githubLink: "https://github.com/vincent65/OrderBook-C-",
     liveLink: "",
     technologies: ["C++"]
@@ -34,7 +34,7 @@ const projects: Project[] = [
     id: 2,
     title: "Full Stack Retrieval Augmented Generation(RAG) Application",
     description: "Scalable full-stack web application with a python backend, FastAPI endpoint hosted on AWS Lambda, and storage on DynamoDB. Responsive WebUI built with NextJS and Tailwind CSS. Used Amazon Titan V2 to create vector embeddings of a PDF to be stored inside of a chroma database. Received user requests and embedded them, attempting to find similarities in the chroma db. Passed the results into the Claude LLM via API to generate a coherent response based on the sources given.",
-    imageUrl: "/images/weather-app.jpg",
+    imageUrl: "/rag.jpg",
     githubLink: "",
     liveLink: "",
     technologies: ["Python", "FastAPI", "NextJS", "Tailwind CSS", "AWS (Lambda, DynamoDB)"]
