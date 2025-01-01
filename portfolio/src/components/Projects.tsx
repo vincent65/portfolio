@@ -31,13 +31,22 @@ const projects: Project[] = [
     technologies: ["C++"]
   },
   {
-    id: 2,
+    id: 3,
     title: "Full Stack Retrieval Augmented Generation(RAG) Application",
     description: "Scalable full-stack web application with a python backend, FastAPI endpoint hosted on AWS Lambda, and storage on DynamoDB. Responsive WebUI built with NextJS and Tailwind CSS. Used Amazon Titan V2 to create vector embeddings of a PDF to be stored inside of a chroma database. Received user requests and embedded them, attempting to find similarities in the chroma db. Passed the results into the Claude LLM via API to generate a coherent response based on the sources given.",
     imageUrl: "/rag.jpg",
     githubLink: "",
     liveLink: "",
     technologies: ["Python", "FastAPI", "NextJS", "Tailwind CSS", "AWS (Lambda, DynamoDB)"]
+  },
+  {
+    id: 4,
+    title: "Photo App",
+    description: "A photo app built on the MERN stack with sign-in/login capabilities, adding photos, gallery mode, etc. ",
+    imageUrl: "/camera.jpeg",
+    githubLink: "https://github.com/vincent65/photo-app",
+    liveLink: "",
+    technologies: ["HTML", "CSS", "Javascript"]
   },
   // Add more projects as needed
 ];
